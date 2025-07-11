@@ -254,4 +254,38 @@ text-box: white;
     border-radius: 5px;
     width: 461px;
     height: 180px;
-]
+}
+    
+.logo{
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 200px;
+}
+.Logo-arrow{
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 18px;
+    color: #8987A1;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.nav-links a
+{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 500px;
+
+}
