@@ -1,23 +1,30 @@
-     .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 200px;
-    width: 1140px;
-    height: 151px;
-    border-left: 150px
-    border-right: 150px;
-    gap: auto;
-}
-.openfontans-normal {
+     .open-sans-uniquifier {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+
+     nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 50px 0px 50px;
+   box-shadow: 0 2px 8px rgb(red, green, blue);
+   margin: 0px 200px;
+   margin-left: 150px;
+   margin-right: 150px;
+   gap: auto;
+
+     }
+    
+
+     
+
 }
-.nav-style{
-    font-weight: bold;
+
+.Logo{
+    
     font-size: 24px;
     color: #4E47FF;
     align-items: center;
@@ -31,34 +38,96 @@
     font-size: 16px;
     border: none;
      background-color: #4E47FF;
-     border-radius: 8px;
-     
-     
-
-
 }
-.banner-title{
+  
+     .banner{
+        margin-bottom: 86px;
+     }
+
+
+
+.banner-section{
     justify-content: center;
     text-align: center;
-    gap: 37;
+     gap: 37px;
    text-wrap: wrap;
+    margin-top: 180px;
+    margin-left: 180px; 
+    margin-right: 200px;
+   margin-bottom: 100px;
+   padding: 0.5px;
    font-weight: 900px;
-   font-height: 230px;
-   margin-top: 300px;
-   margin: 250px;
-   margin-right: 260px;
-   margin-bottom: 150px;
-   padding: 0.5;
-
+   font height: 230px; 
+   font-family: "Open Sans", sans-serif;
+  
    
 }
-body
+
+
+header
 {
-    background-image: url('../Assets/Hero-bg.png');
-}
-.banner-heading{
-    color: #252432;
-    font-size: 65px;
+    background-image: url('../Assets/Hero-bg.png'); height: 698px;
+    width: 1440px;
     
+    align-items: center;
+    ;
+
+
+}
+    
+    
+.banner-heading{
+    color: #252525;
+    font-size: 65px;
+    margin: auto;
+    font: bold;
+   
+  
+    
+}
+.details-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    gap: 50px;
+    width: 1140px;
+    height: 328px;
+    border-radius: 48px;
+    
+
+}
+.details-text{
+    max-width: 400px;
+    text-align: left;
+    color: #252432;
+}
+.details-text h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+button:hover{
+    color: #4E47FF;
+}
+.details-cover img{
+    border-radius: 15px;
+    height: 328px;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 0 auto;
+    margin: 0;
+    border: 10px;
+
+}
+.secondary-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
